@@ -1,0 +1,33 @@
+body {
+ background-image: url("../logo.jpg");
+ background-color: rgba(153, 204, 0, 0.5);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.text-center {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.h1, h1 {
+color: #ffc107;
+}
+
+.text-muted {
+color: #6dc37d !important;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
